@@ -1,13 +1,26 @@
 header {
     background-color: #05131E;
 }
-img {
-    max-width: 5%;
+
+header img {
+    height: 60px;
+    width: 60px;
     padding: 10px;
-    margin-left: 30px;
+}
+
+.card-text{
+    color: gray;
+}
+
+.card-img-top  {
+    padding-top: 10px;
 }
 
 #jumbotron {
     height: 100vh;
     background-color: #1D2D3C;
+}
+
+.card{
+    background-color: #10202F;
 }

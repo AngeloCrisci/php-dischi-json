@@ -10,10 +10,10 @@ const app = createApp({
    
   },
   created(){
-    axios.get('http://localhost/php-dischi-json/FUNCTIONS/')
+    axios.get('http://localhost/php-dischi-json/FUNCTIONS/functions.php')
         .then(  response => {
             this.discs = response.data;
-        console.log(response);
+        console.log('RISPOSTA',response.data);
         })
         .catch(function (error) {
         console.log(error);

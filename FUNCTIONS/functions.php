@@ -1,13 +1,12 @@
 <?php 
 
-$json_path = __DIR__ . '../JSON/dischi.json';
+$json_path = '../JSON/dischi.json';
 
 $json_data = file_get_contents($json_path);
 
-$discs = json_decode($json_data, true);
 
-header('Content-Tyep: applications/json');
+header('Content-Type: application/json');
 
-echo $discs;
+echo $json_data;
 
 ?>
