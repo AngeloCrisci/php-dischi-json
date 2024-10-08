@@ -1,0 +1,13 @@
+header {
+    background-color: #05131E;
+}
+img {
+    max-width: 5%;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+#jumbotron {
+    height: 100vh;
+    background-color: #1D2D3C;
+}
